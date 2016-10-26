@@ -1,0 +1,19 @@
+<h1> {{song.title}} </h1>
+<br>
+Song Price: {{song.price}}
+<br>
+Plays: {{song.playCount}}
+<br>
+{{#if isPopular}}
+<text> Pretty dope song. </text>
+<br>
+{{/if}}
+
+{{#if isExpensive}}
+<text> $$ </text>
+<br>
+
+{{else}}
+<text> $ </text>
+<br>
+{{/if}}
